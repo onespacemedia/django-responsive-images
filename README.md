@@ -7,7 +7,7 @@ Provides responsive image generation in Django.
 Getting Started
 ===============
 
-This project has a dependancy on etianen/django-optimizations which handles the actual image resizing and jQuery for the front-end image selection.  You will need to add a few configuation lines to your settings file. You can add as many images sizes as you like.
+This project has a dependancy on [etianen/django-optimizations](https://github.com/etianen/django-optimizations) which handles the actual image resizing and jQuery for the front-end image selection.  You will need to add a few configuation lines to your settings file. You can add as many images sizes as you like.
 
 ```
 RESPONSIVE_IMAGES_SIZES = [
