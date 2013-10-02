@@ -1,0 +1,1 @@
+<img class="responsive-image" src="data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7" alt="{{ alt }}" {% for name, values in attrs.items %} {{ name }}="{{ value }}"{% endfor %} data-sizes="{% for size in sizes %}{{ size.width }}x{{ size.height }}={{ size.url }}{% if not forloop.last %};{% endif %}{% endfor %}">
