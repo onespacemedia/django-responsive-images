@@ -38,7 +38,7 @@ RESPONSIVE_IMAGES_SIZES = [
 To actually make your images responsive you will need to import the supplied templatetag and use it as follows:
 
 ```
-{% import responsive_images %}
+{% load responsive_images %}
 
 {% responsive_img project.image.file method="crop" %}
 ```
