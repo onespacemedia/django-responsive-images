@@ -1,3 +1,7 @@
+### This project is no longer being maintained. We recommend using [lewiscollard/django-flexible-images](https://github.com/lewiscollard/django-flexible-images)
+
+--
+
 django-responsive-images
 ========================
 
